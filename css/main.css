@@ -1,0 +1,156 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  font-family: 'Sansita Swashed', cursive;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  margin: 0;
+  margin-right: 1rem;
+}
+.nav-small{
+  float: right;
+  margin-right: .5rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+h1 {
+  margin: 0;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skip-links > li::before {
+  content: none; /* Remove the bullets if nice lists is selected */
+}
+
+.skip-links a,
+.skip-links button {
+  padding: .5em .75em;
+  position: absolute;
+  top: -10em;
+  z-index: 10000; /* To make sure they're always on top */
+  background-color: #000;
+  border: 0;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.skip-links a:focus,
+.skip-links button:focus {
+  outline-offset: 3px;
+  top: 0;
+}
+
+body {
+  background-color: #C49999;
+  color: #fff;
+  margin: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.logo {
+  text-align: left;
+  display: inline-block;
+}
+
+.web-nav {
+  display: grid;
+  margin-top: .8rem;
+  grid-template-columns: auto 70px 50px 50px 60px;
+  columns: 1;
+  text-align: right;
+}
+
+.icon {
+  display: inline-block;
+  position: relative;
+  background: transparent none no-repeat center center;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.icon img,
+.icon svg {
+  left: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  fill: currentColor;
+}
+
+.i-64, .i--64 {
+  height: 64px;
+  width: 64px;
+}
+
+.icon-link,
+.icon-link:focus,
+.icon-link:hover {
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: .1rem;
+  background-color: #fff;
+  min-width: 75px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 8px 15px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #C49999;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
