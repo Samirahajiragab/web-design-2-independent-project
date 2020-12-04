@@ -235,36 +235,48 @@ ul {
   text-align: center;
 }
 
-.i-128 {
-  height: 128px;
-  width: 128px;
+
+.i-192 {
+  height: 150px;
+  width: 190px;
+}
+
+.service-content {
+  background-color: #fff;
 }
 
 .services {
   background-color: #fff;
+  display: grid;
+  grid-template-columns:  auto auto auto auto auto;
+  grid-gap: 1rem;
+  text-align: center;
 }
 
-h4 {
+footer, h4 {
   color: #fff;
+  text-align: center;
 }
+footer
 
-h5 {
+h5, .quotes {
+  text-align: center;
   color: #C49999;
 }
 
 
 .btn-banner {
-  background-color: #045fa2;
-  border-color: #e8be3b;
+  background-color: #fff;
+  border: 2px solid #C49999;
   border-radius: 13px;
-  color: #fff;
+  color: #C49999;
 }
 
 .btn-banner:hover,
 .btn-banner:focus {
-  background-color: #fff;
-  border-color: #045fa2;
-  color: #045fa2;
+  background-color:#C49999;
+  border: 2px solid #fff;
+  color: #fff;
 }
 @media only screen and (min-width: 38em) {
 
