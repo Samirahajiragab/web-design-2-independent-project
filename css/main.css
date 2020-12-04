@@ -124,9 +124,15 @@ nav a {
 }
 
 .i-64 {
-  height: 64px;
-  width: 64px;
+  height: 70px;
+  width: 70px;
 }
+
+.i-48 {
+  height: 48px;
+  width: 48px;
+}
+
 
 .icon-link,
 .icon-link:focus,
@@ -206,9 +212,6 @@ text-decoration: none;
   margin: auto;
 }
 
-.current-projects {
-  background-color: #fff;
-}
 
 img {
   width: 100%;
@@ -226,6 +229,15 @@ h3, .projects-content{
 .i-96 {
   height: 96px;
   width: 96px;
+}
+
+.current-projects {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns:  auto auto;
+  grid-gap: 1rem;
+  text-align: center;
+  padding: 1rem;
 }
 
 ul {
