@@ -213,14 +213,58 @@ text-decoration: none;
 img {
   width: 100%;
 }
+
 h3, .projects-content{
   color: #C49999;
 }
 
-.experienced {
+.i-48 {
+  height: 48px;
+  width: 48px;
+}
+
+.i-96 {
+  height: 96px;
+  width: 96px;
+}
+
+ul {
   display: grid;
-  grid-template-columns:  100px 100px 100px 100px 100px 100px 100px 100px  ;
-  columns: 1;
+  grid-template-columns:  auto auto auto auto  auto  auto;
+  grid-gap: 1rem;
+  text-align: center;
+}
+
+.i-128 {
+  height: 128px;
+  width: 128px;
+}
+
+.services {
+  background-color: #fff;
+}
+
+h4 {
+  color: #fff;
+}
+
+h5 {
+  color: #C49999;
+}
+
+
+.btn-banner {
+  background-color: #045fa2;
+  border-color: #e8be3b;
+  border-radius: 13px;
+  color: #fff;
+}
+
+.btn-banner:hover,
+.btn-banner:focus {
+  background-color: #fff;
+  border-color: #045fa2;
+  color: #045fa2;
 }
 @media only screen and (min-width: 38em) {
 
