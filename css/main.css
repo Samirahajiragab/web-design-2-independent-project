@@ -31,8 +31,9 @@ ul {
   list-style-type: none;
 }
 
-p {
+.banner-content {
   font-weight: 300;
+  text-align: center;
 }
 
 h1 {
@@ -199,7 +200,7 @@ text-decoration: none;
 }
 
 .space-after {
-  padding-bottom: 3rem;
+  padding-bottom: .5rem;
 }
 
 .scroll-note {
@@ -211,7 +212,6 @@ text-decoration: none;
 .banner {
   margin: auto;
 }
-
 
 img {
   width: 100%;
@@ -230,6 +230,12 @@ h3, .projects-content{
   height: 96px;
   width: 96px;
 }
+
+.i-200 {
+  height: auto;
+  width: auto;
+}
+
 
 .current-projects {
   background-color: #fff;
@@ -253,8 +259,17 @@ ul {
   width: 190px;
 }
 
-.service-content {
+.service-content,{
   background-color: #fff;
+}
+
+.title-width {
+  width: 8em;
+}
+
+p {
+  padding: 0;
+  margin: 0;
 }
 
 .services {
@@ -282,6 +297,7 @@ h5, .quotes {
   border: 2px solid #C49999;
   border-radius: 13px;
   color: #C49999;
+  overflow: hidden;
 }
 
 .btn-banner:hover,
