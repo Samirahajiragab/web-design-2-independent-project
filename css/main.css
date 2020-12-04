@@ -203,10 +203,25 @@ text-decoration: none;
 }
 
 .banner {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  margin: auto;
 }
 
+.current-projects {
+  background-color: #fff;
+}
+
+img {
+  width: 100%;
+}
+h3, .projects-content{
+  color: #C49999;
+}
+
+.experienced {
+  display: grid;
+  grid-template-columns:  100px 100px 100px 100px 100px 100px 100px 100px  ;
+  columns: 1;
+}
 @media only screen and (min-width: 38em) {
 
   .highlight {
