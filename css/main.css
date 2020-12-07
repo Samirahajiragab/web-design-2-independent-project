@@ -21,7 +21,7 @@ html {
 
 body {
   background-color: #c49999;
-  color: #fff;
+  color: #000;
   margin: 0;
   padding: 0;
 }
@@ -38,7 +38,7 @@ body {
   z-index: 10000; /* To make sure they're always on top */
   background-color: #000;
   border: 0;
-  color: #fff;
+  color: #000;
   font-size: 1.125rem;
   font-weight: bold;
   text-decoration: none;
@@ -87,7 +87,8 @@ h1 {
 }
 
 nav a {
-  color: #fff;
+  font-size: bold;
+  color: #000;
   text-decoration: none;
   list-style-type: none;
 }
@@ -108,7 +109,7 @@ nav a {
 .highlight {
   margin: auto;
   line-height: 1.6;
-  color: #c49999;
+  color: #000;
   background-color: #fff;
 }
 
@@ -184,7 +185,7 @@ nav a {
 }
 
 .scroll, a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
@@ -193,12 +194,17 @@ nav a {
 }
 
 h3, .projects-content, h5 {
-  color: #c49999;
+  color: #000;
 }
 
 .i-48 {
   height: 48px;
   width: 48px;
+}
+
+.i-47 {
+  height: 40px;
+  width: 60px;
 }
 
 .i-96 {
@@ -233,7 +239,7 @@ ul {
 }
 
 h4, h3 {
-  font-weight: 500;
+  font-weight: bolder;
 }
 
 .title-width {
@@ -241,20 +247,20 @@ h4, h3 {
 }
 
 p {
-  font-weight: 300;
+  font-weight: normal;
   padding: 0;
   margin: 0;
 }
 
 footer, h4 {
-  color: #fff;
+  color: #000;
   font-size: .5rem;
   text-align: center;
 }
 
 .quotes {
   text-align: left;
-  color: #c49999;
+  color: #000;
   width: 20em;
   margin: auto;
 }
@@ -263,7 +269,7 @@ footer, h4 {
   background-color: #fff;
   border: 2px solid #c49999;
   border-radius: 13px;
-  color: #c49999;
+  color: #000;
   overflow: hidden;
 }
 
@@ -279,7 +285,7 @@ footer, h4 {
 }
 
 .services-content {
-  color: #c49999;
+  color: #000;
 }
 
 .i-192 {
@@ -373,7 +379,7 @@ footer, h4 {
 
   .quotes {
     text-align: left;
-    color: #c49999;
+    color: #000;
     width: 30em;
     margin: auto;
   }
