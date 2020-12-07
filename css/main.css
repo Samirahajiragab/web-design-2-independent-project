@@ -36,6 +36,11 @@ ul {
   text-align: center;
 }
 
+image {
+  position: absolute;
+    bottom:0px;
+}
+
 h1 {
   margin: 0;
   padding-bottom: 1rem;
@@ -211,13 +216,14 @@ text-decoration: none;
 
 .banner {
   margin: auto;
+  position: relative;
 }
 
 img {
   width: 100%;
 }
 
-h3, .projects-content{
+h3, .projects-content, h5 {
   color: #C49999;
 }
 
@@ -264,7 +270,7 @@ ul {
 }
 
 .title-width {
-  width: 8em;
+  width: 5em;
 }
 
 p {
