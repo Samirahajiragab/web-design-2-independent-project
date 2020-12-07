@@ -251,15 +251,11 @@ ul {
 }
 
 .serv {
-    grid-template-columns:  300px 300px 300px;
-    grid-template-rows: auto auto;
-    justify-content: center;
     grid-gap: 1rem;
-    text-align: center;
 }
 
-h4 {
-  font-weight: 400;
+h4, h3 {
+  font-weight: 500;
 }
 
 
@@ -274,12 +270,15 @@ p {
 
 footer, h4 {
   color: #fff;
+  font-size: .5rem;
   text-align: center;
 }
 
-h5, .quotes {
-  text-align: center;
+ .quotes {
+  text-align: left;
   color: #C49999;
+  width: 20em;
+  margin: auto;
 }
 
 
@@ -307,20 +306,17 @@ h5, .quotes {
 }
 
 .i-192 {
-  height: 50px;
-  width: 50px;
-}
-
-.i-193 {
-  height: 50px;
+  height: 70px;
   width: 70px;
 }
 
-@media only screen and (min-width: 25em) {
+.i-193 {
+  height: 70px;
+  width: 90px;
+}
 
-  .banner-head{
-    font-size: 1.5rem;
-  }
+
+@media only screen and (min-width: 25em) {
 
   .banner {
     position: relative;
@@ -339,6 +335,7 @@ h5, .quotes {
 
 
 }
+
 @media only screen and (min-width: 38em) {
 
   .fixed {
@@ -358,8 +355,24 @@ h5, .quotes {
   .web-nav {
     display: grid;
     margin-top: .8rem;
-    grid-template-columns: auto 80px 40px 40px 40px;
+    grid-template-columns: auto 80px 40px 40px auto;
     grid-gap: .5rem;
+    float: right;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns:  90px 90px 90px 90px 90px 90px;
+    justify-content: center;
+    grid-gap: .5rem;
+    text-align: center;
+  }
+
+  .serv {
+    grid-template-columns:  200px 200px 200px;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    grid-gap: 1rem;
   }
 
   .nav a:hover {
@@ -373,31 +386,64 @@ h5, .quotes {
     max-width: 400px;
   }
 
+  .quotes {
+   text-align: left;
+   color: #C49999;
+   width: 30em;
+   margin: auto;
+ }
+
+ .copyright {
+   font-weight: 300;
+   font-style: normal;
+ }
 }
+
+
+
 
 @media only screen and (min-width: 60em) {
 
   .i-96 {
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
   }
 
-  ul {
+  .serv {
     display: grid;
     grid-template-columns:  150px 150px 150px 150px 150px 150px;
     justify-content: center;
-    grid-gap: .5rem;
-    text-align: center;
   }
+
+  .fixed {
+    left: 400px;
+  }
+
+  .i-200 {
+    height: 300px;
+    width: 300px;
+  }
+
+  .i-192 {
+    height: 100px;
+    width: 100px;
+  }
+
+  .i-193 {
+    height: 100px;
+    width: 130px;
+  }
+
+}
+@media only screen and (min-width: 90em) {
 
   .fixed {
     left: 500px;
   }
 
   .i-200 {
-    height: 340px;
-    width: 340px;
+    height: 330px;
+    width: 330px;
   }
-
 
 }
