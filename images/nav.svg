@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="45" height="47" viewBox="0 0 45 47"><g fill="none" stroke="#fff"><g stroke-width="2"><rect width="45" height="47" stroke="none" rx="9"/><rect width="43" height="45" x="1" y="1" rx="8"/></g><path stroke-linecap="round" stroke-width="3" d="M9.107 11.875h25.6m-25.6 12.453h25.6m-25.6 12.454h25.6"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="47" viewBox="0 0 45 47">
+  <g id="Group_49" data-name="Group 49" transform="translate(-317 -7)">
+    <g id="Rectangle_47" data-name="Rectangle 47" transform="translate(317 7)" fill="none" stroke="#000" stroke-width="2">
+      <rect width="45" height="47" rx="9" stroke="none"/>
+      <rect x="1" y="1" width="43" height="45" rx="8" fill="none"/>
+    </g>
+    <line id="Line_8" data-name="Line 8" x2="25.599" transform="translate(326.107 18.875)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
+    <line id="Line_9" data-name="Line 9" x2="25.599" transform="translate(326.107 31.328)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
+    <line id="Line_10" data-name="Line 10" x2="25.599" transform="translate(326.107 43.782)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
+  </g>
+</svg>
