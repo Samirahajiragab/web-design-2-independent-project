@@ -212,7 +212,7 @@ h3, .projects-content, h5 {
   width: 50px;
 }
 
-.current-projects, .about-me{
+.current-projects, .about-me {
   background-color: #fff;
   display: grid;
   grid-template-columns: auto auto;
@@ -304,11 +304,10 @@ footer, h4 {
 }
 
 .about-content {
-  text-align:left;
+  text-align: left;
   width: 25em;
   font-family: "Noto Sans JP", sans-serif;
 }
-
 
 @media only screen and (min-width: 25em) {
 
@@ -340,7 +339,7 @@ footer, h4 {
 }
 
 .blue {
-background-color: #99AFC4;
+  background-color: #99afC4;
 }
 
 @media only screen and (min-width: 38em) {
