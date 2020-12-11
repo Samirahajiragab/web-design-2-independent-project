@@ -315,23 +315,22 @@ footer, h4 {
 }
 
 .projects {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.projects:before,
-.projects:after {
-    content: '';
-    border-top: 2px solid;
-    margin: 0 20px 0  0;
-    flex: 1 0 20px;
+.projects:before, .projects:after {
+  content: "";
+  border-top: 2px solid;
+  margin: 0 20px 0  0;
+  flex: 1 0 20px;
 }
 
 .projects:after {
-    margin: 0 0 0 20px;
+  margin: 0 0 0 20px;
 }
 
 .purple {
