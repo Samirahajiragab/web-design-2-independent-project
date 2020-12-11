@@ -98,14 +98,6 @@ nav a {
   display: inline-block;
 }
 
-.web-nav {
-  display: grid;
-  margin-top: .8rem;
-  grid-template-columns: auto 100px 50px 50px 50px 50px;
-  columns: 1;
-  text-align: right;
-}
-
 .highlight {
   margin: auto;
   line-height: 1.6;
@@ -280,6 +272,23 @@ footer, h4 {
   color: #fff;
 }
 
+.btn-banner-blue {
+  background-color: #fff;
+  border: 2px solid #99afc4;
+  border-radius: 13px;
+  color: #000;
+  font-size: 18px;
+  padding: .6rem;
+  overflow: hidden;
+}
+
+.btn-banner-blue:hover,
+.btn-banner-blue:focus {
+  background-color: #99afc4;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
 .services {
   background-color: #fff;
 }
@@ -299,8 +308,8 @@ footer, h4 {
 }
 
 .i-205 {
-  height: 230px;
-  width: 230px;
+  height: 260px;
+  width: 260px;
 }
 
 .about-content {
@@ -379,6 +388,11 @@ footer, h4 {
 
 @media only screen and (min-width: 38em) {
 
+  .about-content {
+    font-size: 16px;
+    margin-left: 1rem;
+  }
+
   .fixed {
     left: 300px;
   }
@@ -441,6 +455,15 @@ footer, h4 {
 }
 
 @media only screen and (min-width: 60em) {
+
+  .about-content {
+    font-size: 19px;
+    margin-left: 0;
+  }
+  .i-205 {
+    height: 300px;
+    width: 300px;
+  }
 
   .banner-head {
     font-weight: 900;
