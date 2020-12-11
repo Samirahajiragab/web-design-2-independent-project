@@ -309,6 +309,7 @@ footer, h4 {
   max-width: 25em;
   font-family: "Noto Sans JP", sans-serif;
 }
+
 .fixed-2 {
   border: 3px solid #000;
   border-radius: 8px;
@@ -322,14 +323,14 @@ footer, h4 {
   text-align: center;
 }
 
-.projects:before, .projects:after {
+.projects::before, .projects::after {
   content: "";
   border-top: 2px solid;
   margin: 0 20px 0  0;
   flex: 1 0 20px;
 }
 
-.projects:after {
+.projects::after {
   margin: 0 0 0 20px;
 }
 
