@@ -101,7 +101,7 @@ nav a {
 .web-nav {
   display: grid;
   margin-top: .8rem;
-  grid-template-columns: auto 100px 50px 50px 50px;
+  grid-template-columns: auto 100px 50px 50px 50px 50px;
   columns: 1;
   text-align: right;
 }
@@ -305,11 +305,13 @@ footer, h4 {
 
 .about-content {
   text-align: left;
-  width: 25em;
+  font-size: 1rem;
+  max-width: 25em;
   font-family: "Noto Sans JP", sans-serif;
 }
 
 @media only screen and (min-width: 25em) {
+
 
   .banner {
     position: relative;
@@ -339,7 +341,7 @@ footer, h4 {
 }
 
 .blue {
-  background-color: #99afC4;
+  background-color: #99afc4;
 }
 
 @media only screen and (min-width: 38em) {
@@ -378,7 +380,6 @@ footer, h4 {
     grid-template-columns: 200px 200px 200px;
     grid-template-rows: auto auto;
     justify-content: center;
-    grid-gap: .5rem;
   }
 
   .nav a:hover {
