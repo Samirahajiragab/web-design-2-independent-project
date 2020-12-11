@@ -277,7 +277,7 @@ footer, h4 {
   border: 2px solid #99afc4;
   border-radius: 13px;
   color: #000;
-  font-size: 18px;
+  font-size: 1.125rem;
   padding: .6rem;
   overflow: hidden;
 }
@@ -457,9 +457,10 @@ footer, h4 {
 @media only screen and (min-width: 60em) {
 
   .about-content {
-    font-size: 19px;
+    font-size: 1.188rem;
     margin-left: 0;
   }
+
   .i-205 {
     height: 300px;
     width: 300px;
