@@ -162,7 +162,6 @@ nav a {
   color: #fff;
   padding: 8px 15px;
   text-decoration: none;
-  display: none;
   text-align: left;
   display: block;
 }
@@ -396,7 +395,7 @@ footer {
   }
 
   .fixed {
-    position:sticky;
+    position: sticky;
     left: 15%;
   }
 
@@ -411,7 +410,6 @@ footer {
     font-size: .7rem;
     margin-left: 0;
   }
-
 
   .i-48 {
     height: 35px;
