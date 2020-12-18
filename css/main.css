@@ -64,7 +64,7 @@ header {
 }
 
 .banner-content {
-  font-weight: 300;
+  font-weight: bold;
   text-align: center;
   overflow: hidden;
 }
@@ -128,10 +128,6 @@ nav a {
   width: 60px;
 }
 
-.about-content {
-  margin: auto;
-}
-
 .icon-link,
 .icon-link:focus,
 .icon-link:hover {
@@ -144,11 +140,22 @@ nav a {
   left: 50%;
   right: 20%;
 }
+nav. .dropdown::before {
+  position: absolute;
+  content: '';
+  height: 20px;
+  width: 20px;
+  background: #1b1b1b;
+  right: 20px;
+  top: -10px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
 
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 3rem;
+  top: 10rem;
   right: .1px;
   background-color: #fff;
   min-width: 75px;
@@ -286,7 +293,6 @@ footer, h4 {
   border: 2px solid #99afc4;
   border-radius: 13px;
   color: #000;
-  font-size: 1rem;
   padding: .6rem;
   overflow: hidden;
 }
@@ -317,11 +323,12 @@ footer, h4 {
 }
 
 .i-205 {
-  height: 280px;
+  height: 320px;
   width: 280px;
 }
 
 .about-content {
+  margin: auto;
   text-align: left;
   font-size: .8rem;
   max-width: 25em;
@@ -369,10 +376,6 @@ footer, h4 {
     width: 340px;
   }
 
-  .banner {
-    position: relative;
-  }
-
   .img-flex {
     display: inline-block;
   }
@@ -395,15 +398,25 @@ footer, h4 {
 
 @media only screen and (min-width: 38em) {
 
+  .banner {
+    position: relative;
+  }
+
+  .fixed {
+    position:sticky;
+    left: 15%;
+  }
 
   .i-205 {
-    height: 240px;
-    width: 240px;
+    height: 280px;
+    width: 280px;
     float: right;
+    margin-right: 1rem;
   }
 
   .about-content {
-    font-size: .6rem;
+    font-size: .7rem;
+    margin-left: 0;
   }
 
 
@@ -466,8 +479,8 @@ footer, h4 {
 @media only screen and (min-width: 60em) {
 
   .i-205 {
-    height: 400px;
-    width: 400px;
+    height: 440px;
+    width: 440px;
   }
 
   .about-content {
@@ -508,10 +521,6 @@ footer, h4 {
 }
 
 @media only screen and (min-width: 90em) {
-
-  .about-content {
-    margin-left: 1rem;
-  }
 
   .i-200 {
     height: 330px;
